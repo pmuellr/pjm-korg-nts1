@@ -25,15 +25,15 @@ You can also set the input MIDI port to the same NTS-1 MIDI port, in which case
 any changes you make to the NTS-1 on the device itself, will be reflected back
 in this UI, and then saved in your Live Set.
 
-The parameters for the device are set up as the following banks
+The auto-mapped parameters for the device are set up as the following banks
 (each row is a bank):
 
-| bank        | control 1   | control 2     | control 3    | control 4   | control 5     | control 6   | control 7     | control 8  |   
-|-------------|-------------|---------------|--------------|-------------|---------------|-------------|---------------|-------------
-|      1      | osc-type    | osc-shape     | osc-alt      | lfo-rate    | lfo-depth     | mod-type    | mod-time      | mod-depth  |
-|      2      | filter-type | filter-cutoff | filter-res   | sweep-rate  | sweep-depth   | arp-type    | arp-intervals | arp-length |
-|      3      | eg-type     | eg-attack     | eg-release   | trem-rate   | trem-depth    |             |               |            |     
-|      4      | delay-type  | delay-time    | delay-depth  | delay-mix   | reverb-type   | reverb-time | reverb-depth  | reverb-mix | 
+| control 1   | control 2     | control 3    | control 4   | control 5     | control 6   | control 7     | control 8  |   
+|-------------|---------------|--------------|-------------|---------------|-------------|---------------|-------------
+| osc-type    | osc-shape     | osc-alt      | lfo-rate    | lfo-depth     | mod-type    | mod-time      | mod-depth  |
+| filter-type | filter-cutoff | filter-res   | sweep-rate  | sweep-depth   | arp-type    | arp-intervals | arp-length |
+| eg-type     | eg-attack     | eg-release   | trem-rate   | trem-depth    |             |               |            |     
+| delay-type  | delay-time    | delay-depth  | delay-mix   | reverb-type   | reverb-time | reverb-depth  | reverb-mix | 
 
 
 references
