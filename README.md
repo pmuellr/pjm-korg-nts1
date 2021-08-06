@@ -130,6 +130,13 @@ additional MIDI details for factory setup
 changelog
 ================================================================================
 
+version 2021.8.6
+
+- OSC controls working, but nothing else
+- UI layout seems done-ish, will need tweaks I'm sure
+- wire up the back-end
+- can it be made narrower?
+
 version 2021.7.10
 
 - initial version
