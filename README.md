@@ -5,7 +5,7 @@ pjm-korg-nts1 - Max for Live device for the Korg NTS-1
 
 This is a Max for Live MIDI Effect device. It is used to control the 
 [Korg NTS-1][] Programmable Synthesizer Kit.  Here's a [nice video][] on this
-device from Loopop
+device from Loopop.
 
 
 [Korg NTS-1]: https://www.korg.com/us/products/dj/nts_1/
@@ -21,19 +21,18 @@ MIDI port. I suggest creating a new track NTS-1 with this device in it, and a
 MIDI Monitor device before and after it, disabled, but ready to help out for
 debugging if needed.
 
-You can also set the input MIDI port to the same NTS-1 MIDI port, in which case
-any changes you make to the NTS-1 on the device itself, will be reflected back
-in this UI, and then saved in your Live Set.
+This device does not respond to MIDI messages from the device itself, for
+instance if you twiddle some knobs.
 
 The auto-mapped parameters for the device are set up as the following banks
 (each row is a bank):
 
 | control 1   | control 2     | control 3    | control 4   | control 5     | control 6   | control 7     | control 8  |   
 |-------------|---------------|--------------|-------------|---------------|-------------|---------------|-------------
-| osc-type    | osc-shape     | osc-alt      | lfo-rate    | lfo-depth     | mod-type    | mod-time      | mod-depth  |
-| filter-type | filter-cutoff | filter-res   | sweep-rate  | sweep-depth   | arp-type    | arp-intervals | arp-length |
-| eg-type     | eg-attack     | eg-release   | trem-rate   | trem-depth    |             |               |            |     
-| delay-type  | delay-time    | delay-depth  | delay-mix   | reverb-type   | reverb-time | reverb-depth  | reverb-mix | 
+| OSC type    | OSC shape     | OSC alt      | OSC lfo rate    | OSC lfo depth     | MOD type    | MOD time      | MOD depth  |
+| FILTER type | FILTER cutoff | FILTER res   | FILTER sweep rate  | FILTER sweep depth   | ARP type    | ARP intervals | ARP length |
+| EG type     | EG attack     | EG release   | EG trem rate   | EG trem depth    |             |               |            |     
+| DELAY type  | DELAY time    | DELAY depth  | DELAY mix   | REVERB type   | REVERB time | REVERB depth  | REVERB mix | 
 
 
 references
@@ -47,7 +46,7 @@ references
 additional MIDI details for factory setup
 ================================================================================
 
-### osc-type - cc 53
+### OSC-type - cc 53
 
 | type     | cc value |   
 |----------|----------------|    
