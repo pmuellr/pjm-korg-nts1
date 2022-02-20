@@ -1,7 +1,7 @@
 pjm-korg-nts1 - Max for Live device for the Korg NTS-1
 --------------------------------------------------------------------------------
 
-![pjm-korg-nts1 device](images/pjm-korg-nts1.png)
+![pjm-korg-nts1 device](images/pjm-korg-nts1.gif)
 
 This is a Max for Live MIDI Effect device. It is used to control the 
 [Korg NTS-1][] Programmable Synthesizer Kit.  Here's a [nice video][] on this
@@ -128,6 +128,10 @@ additional MIDI details for factory setup
 
 changelog
 ================================================================================
+
+version 2022.2.20
+
+- all controls wired up, should be fully functional
 
 version 2021.8.6
 
