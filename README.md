@@ -129,6 +129,12 @@ additional MIDI details for factory setup
 changelog
 ================================================================================
 
+version 2022.2.21
+
+- re-arranged the sections of the device, to be in the same order as displayed
+  on the device (duh!)
+- cleaned up the sample Live Set
+
 version 2022.2.20
 
 - all controls wired up, should be fully functional
